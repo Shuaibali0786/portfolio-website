@@ -7,10 +7,14 @@ import Image from 'next/image'
 const About = () => {
   return ( 
     <div className=' pt-32 pb-16  bg-[#050709]'>
-     {/* SectionHending */}
+    
      <SectionHanding>About Me</SectionHanding> 
-     <div className='w-[80%] mx-auto  grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20'> 
-      <div>
+     <div  
+      data-aos="fade-left"
+      data-aos-anchor-placement="top-center"
+      className='w-[80%] mx-auto  grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20'> 
+      <div   data-aos="fade-left"
+      data-aos-anchor-placement="top-center">
         <h1 className='text-bg text-[26px] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-200'> {aboutInfo.title}
          </h1> 
          <p className='mt-6 text-base text-gray-500'>
@@ -39,9 +43,13 @@ const About = () => {
           </div>
          </div>
       </div>
-      {/* Stats Content */}
-      <div className='grid grid-cols-2 gap-16 items-center lg:mx-auto'>
-        {/* 1st starts */}
+     
+      <div
+        data-aos="Zoom-in"
+        data-aos-anchor-placement="top-center" 
+        data-aos-delay="150"
+      className='grid grid-cols-2 gap-16 items-center lg:mx-auto'>
+    
         <div>
           <Image src="/image/customer.jpg" alt='image'
           width={80}

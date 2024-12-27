@@ -39,12 +39,12 @@ const Nav = ({ openNav}: Props) => {
 
         <Image src="/image/Logo1.png" 
       alt='LOGO'
-      width={170}
-      height={170}
-      className='ml-[-1.5rem] sm:ml-0'/>
+      width={100}
+      height={100}
+      className='ml-[-1.5rem] sm:ml-0 pt-4 pb-1'/>
 
       {/* Nav Link */}
-      <div className='flex items-center space-x-10 '>
+      <div   className='flex items-center space-x-10 '>
        <div className='hidden lg:flex items-center space-x-8'>
        {navLinks.map((navLinks) => {
         return <Link key={navLinks.id} href={navLinks.url}>
