@@ -28,7 +28,7 @@
                       <p data-aos="fade-left" data-aos-delay="200" className='mt-6 text-sm md:text-base text-white text-opacity-60'>{BaseInfo.description}</p> 
                      \
             
-                      {/* Social Icons */}
+               
                       <div
                        data-aos="fade-right"
                         data-aos-delay="100"
@@ -49,7 +49,7 @@
                       </div>
                     </div>
             
-                    {/* Image Content */}
+                 
                     <div
                       data-aos="zoom-in"
                       data-aos-delay="400"
