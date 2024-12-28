@@ -83,39 +83,27 @@ export const projectData = [
   },
   {
     id: 3,
-    image: "/image/culculater.jpeg",
-    url: "Live demo",
-  },
-  {
-    id: 4,
-    image: "/image/countdown-timer.jpeg",
-    url: "Live demo",
-  },
-  {
-    id: 5,
-    image: "/image/images (1).jpeg",
-    url: "Live demo",
-  },
-  {
-    id: 6,
     image: "/image/atm.jpeg",
     url: "Live demo",
   },
+
   {
-    id: 7,
+    id: 4,
+    image: "/image/images (1).jpeg",
+    url: "https://governor-initiative-website.vercel.app/",
+  },
+  {
+    id: 5,
+    image: "/image/countdown-timer.jpeg",
+    url: "Live demo",
+  },
+
+  {
+    id: 6,
     image: "/image/login4.jpeg",
     url: "https://next-js-website-5qhs.vercel.app/",
   },
-  {
-    id: 8,
-    image: "/image/5todo.jpeg",
-    url: "Live demo",
-  },
-  {
-    id: 9,
-    image: "/image/5todo.jpeg",
-    url: "Live demo",
-  },
+
 ];
 
 export const skillesData = [
@@ -212,7 +200,7 @@ export const clientReviews = [
   
   },
   {
-    name: "Maanoor",
+    name: "Aisha",
     profession: "Creative Derector",
     review: "professional, effecient, and highly knowleggeable. would definitely recommend their services!",
     rating: 4.9,

@@ -27,7 +27,7 @@ const BlogsCard = ({ blogs }: Props) => {
 
       {/* Blog Content */}
       <div className="p-6">
-        <h1 className='rounded-sm px-6 py-1.5 bg-rose-500 text-white w-fit'>News</h1>
+        <h1 className='rounded-sm px-6 py-1.5 bg-blue-800  text-white w-fit'>News</h1>
         <h3 className="text-lg font-bold mt-4 mb-2">{title}</h3>
         <p className="text-sm text-gray-300 mb-4">{summary}</p>
         <p className="text-xs text-gray-500">{date}</p>
