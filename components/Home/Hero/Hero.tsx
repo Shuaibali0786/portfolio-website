@@ -13,7 +13,7 @@
                     <div className="text-center lg:text-left">
                       <h1
                         data-aos="fade-left"
-                        className="text-2xl md:text-3xl lg:text-4xl mb-5 mt-4 text-gray-300 font-semibold"
+                        className="text-2xl md:text-3xl lg:text-4xl  mt-4 text-gray-300 font-semibold"
                       >
                         <span >Hi,</span>
                         <br />I am {BaseInfo.name}
@@ -26,7 +26,7 @@
                         {BaseInfo.position}
                       </h1>
                       <p data-aos="fade-left" data-aos-delay="200" className='mt-6 text-sm md:text-base text-white text-opacity-60'>{BaseInfo.description}</p> 
-                     \
+                     
             
                
                       <div
