@@ -3,14 +3,14 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <div  className='pt-16 pb-16 bg-[#0f0715]'>
-        <div  >
+        {/* <div  >
             <Image
             src="/image/logos1.jpg"
             alt='logo'
             width={100}
             height={100}
             className='mx-auto'/>
-        </div>
+        </div> */}
 
         <div data-aos="zoom-in"
     data-aos-delay="400"  className='flex items-center flex-wrap justify-center space-x-10 scroll-py-4 text-white font-bold'>
