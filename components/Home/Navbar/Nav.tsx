@@ -36,12 +36,13 @@ const Nav = ({ openNav}: Props) => {
       
 
         {/* Logo */}
+        <h1 className='text-4xl text-bg text-[26px] '>webdev</h1>
 
-        <Image src="/image/Logo1.png" 
+        {/* <Image src="/image/logos1.jpg" 
       alt='LOGO'
       width={100}
       height={100}
-      className='ml-[-1.5rem] sm:ml-0 pt-4 pb-1'/>
+      className='ml-[-1.5rem] sm:ml-0 pt-4 pb-1'/> */}
 
       {/* Nav Link */}
       <div   className='flex items-center space-x-10 '>

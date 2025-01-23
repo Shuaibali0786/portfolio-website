@@ -3,32 +3,32 @@ import { url } from "inspector";
 export const navLinks =  [ 
 {
     id: 1,
-    url: "#",
+    url: "/home",
     lable: "Home"
 },
 {
     id: 2,
-    url: "#",
+    url: "/about",
     lable: "About"
 },  
 {
     id: 3,
-    url: "#",
-    lable: "Services"
+    url: "/blogs",
+    lable: "Blogs"
 },
 {
     id: 4,
-    url: "#",
+    url: "/projects",
     lable: "Projects "
 },
 {
     id: 5,
-    url: "#",
+    url: "reviews",
     lable: "Reviews"
 },
 {
     id: 6,
-    url: "#",
+    url: "/contact",
     lable: "Contacts"
 },
  ]
