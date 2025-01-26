@@ -51,7 +51,7 @@ const About = () => {
       className='grid grid-cols-2 gap-16 items-center lg:mx-auto'>
     
         <div>
-          <Image src="/image/customer.jpg" alt='image'
+          <img src="/image/customer.jpg" alt='image'
           width={80}
           height={80}
           className='mx-auto'/>
@@ -64,10 +64,8 @@ const About = () => {
         </div>
         {/* 2nd starts */}
         <div>
-          <Image src="/image/ss2.jpg" alt='image'
-          width={80}
-          height={80}
-          className='mx-auto'/>
+          <img src="/image/ss2.jpg" alt="image" width={80} height={80}  className='mx-auto' />
+         
           <p className='mt-3 font-bold text-xl text-white text-center'>
             {aboutInfo.experience}
           </p>
@@ -77,7 +75,7 @@ const About = () => {
         </div>
         {/* 3rd start */}
         <div>
-          <Image src="/image/project-pic.jpg" alt='image'
+          <img src="/image/project-pic.jpg" alt='image'
           width={80}
           height={80}
           className='mx-auto'/>
@@ -90,7 +88,7 @@ const About = () => {
         </div>
         {/* 4th start */}
         <div>
-          <Image src="/image/sky.jpg" alt='image'
+          <img src="/image/sky.jpg" alt='image'
           width={80}
           height={80}
           className='mx-auto'/>

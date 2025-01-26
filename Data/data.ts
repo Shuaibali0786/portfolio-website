@@ -10,10 +10,10 @@ export const aboutInfo = {
   title: "Crafting Web Application  with passion and precision",
   description:
     "At webdev warriors, we're a dedicated team of designers and developers committed to delivering tailored web solution,with a blend of creativity and technical expertise.",
-  client: "50+",
-  experience: "1+",
-  projects: "20+",
-  website: "50+",
+  client: "20+",
+  experience: "2+",
+  projects: "10+",
+  website: "20+",
 };
 
 export const servicesData = [
@@ -134,7 +134,7 @@ export const skillesData = [
   {
     id: 5,
     title: "React",
-    image: "/image/react.js",
+    image: "/image/react-image.png",
     percent: "65%",
   },
   {

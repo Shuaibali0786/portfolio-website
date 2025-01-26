@@ -36,7 +36,7 @@ const Nav = ({ openNav}: Props) => {
       
 
         {/* Logo */}
-        <h1 className='text-4xl text-bg text-[26px] '>webdev</h1>
+        <h1 className='text-4xl text-bg text-[26px] '>Webdev</h1>
 
         {/* <Image src="/image/logos1.jpg" 
       alt='LOGO'
